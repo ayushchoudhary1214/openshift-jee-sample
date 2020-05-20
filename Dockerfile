@@ -1,3 +1,3 @@
 FROM jboss/wildfly
-COPY ROOT.war /wildfly/standalone/deployments/ROOT.war
+COPY pom.xml /wildfly/standalone/deployments/pom.xml
 CMD $STI_SCRIPTS_PATH/run
